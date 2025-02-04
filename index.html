@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#317EFB" />
+    <title>PWA WebKit Notifications</title>
+    <link rel="manifest" href="manifest.json">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+
+        button {
+            font-size: 1rem;
+            padding: 10px 20px;
+            margin-top: 20px;
+            border: none;
+            background-color: #317EFB;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #255f99;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>PWA Notifiche WebKit</h1>
+    <p>Clicca sul bottone per richiedere permesso alle notifiche e inviarne una:</p>
+    <button id="notifyButton">Invia Notifica</button>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
